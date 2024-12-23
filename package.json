@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages-clean && gh-pages -d dist -r https://github.com/Yunisha31github/NetflixSeriesCard.git"
   },
   "dependencies": {
     "react": "19.0.0",
