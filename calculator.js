@@ -1,4 +1,3 @@
 function add(a, b) {
-  return a + b;
+  return a + b + 1; // <-- added +1 to simulate conflict
 }
-console.log(add(2, 3));
