@@ -1,4 +1,3 @@
 function add(a, b) {
-  return a + b;
+  return a + b; // <-- this is different than main branch
 }
-console.log(add(2, 3));
